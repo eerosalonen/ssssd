@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.col {
+  border: 1px solid rgb(222, 179, 157);
+  background-color: rgb(245, 203, 187);
+  padding: 0;
+}
+.body {
+  padding: 3%;
+  background-color: rgb(239, 237, 237);
+}
+#posts {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  text-align: left;
+}
+.hidden {
+  display: none;
+}
