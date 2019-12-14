@@ -14,8 +14,8 @@ class Comments extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmit}>
-          <div className="row">
-            <div className="input-field col s5">
+          <div className="row z-depth-4">
+            <div className="input-field col s10">
               <input
                 id="username"
                 type="text"
@@ -24,14 +24,15 @@ class Comments extends Component {
                 onChange={this.onChange}
                 // class="validate"
               />
-              <label for="username">Username</label>
+              <label for="username">Comment</label>
             </div>
             <button
-              className="input-field bb col s2 waves-effect waves-light"
+              id="postButton"
+              className="input-field bb col s2 z-depth-4 waves-effect waves-light"
               type="submit"
               name="action"
             >
-              LOG IN
+              POST
             </button>
           </div>
         </form>

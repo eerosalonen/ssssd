@@ -17,8 +17,8 @@ class KayttajaI extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmit}>
-          <div className="row">
-            <div className="input-field col s5">
+          <div className="row z-depth-4">
+            <div className="input-field col s5 z-depth-2">
               <input
                 id="username"
                 type="text"
@@ -29,7 +29,7 @@ class KayttajaI extends Component {
               />
               <label for="username">Username</label>
             </div>
-            <div className="input-field col s5">
+            <div className="input-field col s5 z-depth-2">
               <input
                 id="password"
                 type="text"
@@ -41,7 +41,7 @@ class KayttajaI extends Component {
               <label for="password">Password</label>
             </div>
             <button
-              className="input-field bb col s2 waves-effect waves-light"
+              className="input-field bb col s2 z-depth-4 waves-effect waves-light"
               type="submit"
               name="action"
             >
